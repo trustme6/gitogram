@@ -1,0 +1,62 @@
+[
+    {
+        "id": "0",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "John"
+    },
+
+    {
+        "id": "1",
+        "avatar": "http://placekitten.com/300/300",
+        "username": "Andrew"
+    },
+
+    {
+        "id": "2",
+        "avatar": "https://source.unsplash.com/300x300/?dog",
+        "username": "Mark"
+    },
+
+    {
+        "id": "3",
+        "avatar": "http://placekitten.com/300/300",
+        "username": "Sasha"
+    },
+
+    {
+        "id": "4",
+        "avatar": "https://source.unsplash.com/300x300/?dog",
+        "username": "Max"
+    },
+
+    {
+        "id": "5",
+        "avatar": "http://placekitten.com/300/300",
+        "username": "Can"
+    },
+
+    {
+        "id": "6",
+        "avatar": "https://source.unsplash.com/300x300/?dog",
+        "username": "Lui"
+    },
+
+    {
+        "id": "7",
+        "avatar": "http://placekitten.com/300/300",
+        "username": "Sandy"
+    },
+
+    {
+        "id": "8",
+        "avatar": "https://source.unsplash.com/300x300/?dog",
+        "username": "Mike"
+    },
+
+    {
+        "id": "9",
+        "avatar": "http://placekitten.com/300/300",
+        "username": "Candy"
+    }
+
+]

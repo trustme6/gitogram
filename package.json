@@ -1,6 +1,11 @@
 {
   "name": "gitogram",
   "version": "0.1.0",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "none"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,6 +15,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/eslint-config-prettier": "^9.0.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },

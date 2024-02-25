@@ -1,0 +1,57 @@
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.main-content {
+  min-height: 100vh;
+  padding-top: 70px;
+  background: #fafafa;
+  gap: 24px;
+}
+
+.m-container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 2px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.head {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.text {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+

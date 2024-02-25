@@ -1,0 +1,11 @@
+.c-feed {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
