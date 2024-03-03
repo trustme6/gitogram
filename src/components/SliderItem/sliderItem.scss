@@ -1,0 +1,25 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .x-wrapper {
+    width: 490px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 70px; 
+ }
+
+.c-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.b-container {
+display: flex;
+justify-content: center;
+}

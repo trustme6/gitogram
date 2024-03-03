@@ -1,0 +1,17 @@
+.x-button {
+    min-width: 270px;
+    max-width: 100px;
+    min-height: 44px;
+    outline: none;
+    background: #31ae54;
+    border: none;
+    border-radius: 10px;
+    &:hover {
+      background: grey;
+    }
+  }
+  
+  .button-text {
+    color: white;
+  }
+  

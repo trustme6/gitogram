@@ -52,6 +52,7 @@
         <span class="text">JavaScript framework for building interactive web applications ⚡</span>
       </div>
       <feed />
+      <sliderItem>example</sliderItem>
     </div>
   </div>
 </template>
@@ -62,13 +63,15 @@ import { icon } from '../../icons'
 import { storyUserItem } from '../../components/storyUserItem'
 import { feed } from '../../components/feed'
 import stories from './data.json'
+import sliderItem from '@/components/SliderItem/sliderItem.vue'
 export default {
   name: 'Feeds',
   components: {
     top,
     icon,
     storyUserItem,
-    feed
+    feed,
+    sliderItem
   },
   data () {
     return {
