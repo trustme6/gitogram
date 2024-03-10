@@ -1,0 +1,32 @@
+.wrapper-stories{
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 350px;
+}
+.c-story-post-item {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 70px; 
+}
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+.icon {
+    color:black;
+    width: 24px;
+    height: 24px
+}
+.next {
+    display: flex;
+    justify-content: flex-end;
+}
+.prev {
+    display: flex;
+    transform: rotate(180deg);  
+}
