@@ -1,11 +1,8 @@
-
 <template>
   <feeds />
 </template>
-
 <script>
 import { feeds } from './pages/feeds'
-
 export default {
   name: 'App',
   components: {
