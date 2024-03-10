@@ -3,7 +3,7 @@
     :class="['button', {'active': isOpened}]"
     @click="toggle"
   >
-    <span class="text">{{ isOpened ? "Hide" : "Show" }}</span>
+    <span class="text">{{ isOpened ? "Hide issues" : "Show issues" }}</span>
     <span class="icon">
       <icon name="triangle" />
     </span>
