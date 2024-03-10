@@ -25,11 +25,7 @@
       <template #content>
         <ul class="stories">
           <li class="stories-item" v-for="story in stories" :key="story.id">
-            <storyUserItem
-              :avatar="story.avatar"
-              :username="story.username"
-              @onPress="handlePress(story.id)"
-            />
+            <storyUserItem :avatar="story.avatar" :username="story.username" @onPress="handlePress(story.id)" />
           </li>
         </ul>
       </template>
@@ -64,6 +60,7 @@ import { storyUserItem } from '../../components/storyUserItem'
 import { feed } from '../../components/feed'
 import stories from './data.json'
 import sliderItem from '@/components/SliderItem/sliderItem.vue'
+
 export default {
   name: 'Feeds',
   components: {
@@ -81,5 +78,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped src="./feeds.scss">
-</style>
+<style lang="scss" scoped src="./feeds.scss"></style>

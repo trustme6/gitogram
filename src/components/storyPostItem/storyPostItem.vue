@@ -14,13 +14,10 @@
 <div class="user"></div>
 </div>
 <div class="content">
- <div class="loader" v-if="loading">
-                loading...
-</div>
-<div class="info" v-else>
-<div v-if="data.content?.length" class="content-text" v-html="data.content"></div>
-<div v-else>some text</div>
-</div>
+<h1>title: {{ title }} </h1>
+<h2>owner: {{ username }} </h2>
+<h3>stars: {{ stars }}</h3>
+<p v-if="description">description: {{ description }}</p>
 </div>
 <div class="button"><xButton /></div>
 </div>
@@ -42,7 +39,7 @@ import { icon } from '../../icons'
 // import { spinner } from '../spinner'
 
 export default {
-    name: "StoryUserItem",
+    name: "StoryPostItem",
     components: {
         xButton,
         xProgress,
@@ -53,10 +50,14 @@ export default {
     props: {
         active: Boolean,
         loading: Boolean,
+title: String,
+username: String,
+stars: Number,
+description: String,        
         data: {
-            type: Object,
-            required: true,
-            default: () => ({})
+            // type: Object,
+            // required: true,
+            // default: () => ({})
         }
     }
 }

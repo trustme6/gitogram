@@ -46,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["@vue/eslint-config-standard", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:8.0.1"],\
           ["@vue/test-utils", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:2.4.4"],\
           ["@vue/vue3-jest", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:27.0.0"],\
+          ["axios", "npm:1.6.7"],\
           ["babel-jest", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:27.5.1"],\
           ["core-js", "npm:3.36.0"],\
           ["cypress", "npm:13.6.6"],\
@@ -9428,6 +9429,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["axios", [\
+      ["npm:1.6.7", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/axios-npm-1.6.7-d7b9974d1b-10c0.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:1.6.7"],\
+          ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.5"],\
+          ["form-data", "npm:4.0.0"],\
+          ["proxy-from-env", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["babel-core", [\
       ["npm:7.0.0-bridge.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/babel-core-npm-7.0.0-bridge.0-7fe146b78f-10c0.zip/node_modules/babel-core/",\
@@ -13967,10 +13980,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.15.5", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-4a368b6a40/4/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.5-9d14db76ca-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.5", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-393395f3f6/4/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.5-9d14db76ca-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.15.5"],\
+          ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.5"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -14474,6 +14487,7 @@ const RAW_RUNTIME_STATE =
           ["@vue/eslint-config-standard", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:8.0.1"],\
           ["@vue/test-utils", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:2.4.4"],\
           ["@vue/vue3-jest", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:27.0.0"],\
+          ["axios", "npm:1.6.7"],\
           ["babel-jest", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:27.5.1"],\
           ["core-js", "npm:3.36.0"],\
           ["cypress", "npm:13.6.6"],\
@@ -15009,7 +15023,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["http-proxy", "npm:1.18.1"],\
           ["eventemitter3", "npm:4.0.7"],\
-          ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.15.5"],\
+          ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.5"],\
           ["requires-port", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
