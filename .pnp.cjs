@@ -62,7 +62,8 @@ const RAW_RUNTIME_STATE =
           ["sass-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:12.6.0"],\
           ["storybook", "npm:7.6.17"],\
           ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"],\
-          ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"]\
+          ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"],\
+          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -8195,6 +8196,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@vue/devtools-api", [\
+      ["npm:6.6.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.1-ef3c82703e-10c0.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@vue/eslint-config-prettier", [\
       ["npm:9.0.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vue-eslint-config-prettier-npm-9.0.0-f8246e50c9-10c0.zip/node_modules/@vue/eslint-config-prettier/",\
@@ -14480,7 +14490,8 @@ const RAW_RUNTIME_STATE =
           ["sass-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:12.6.0"],\
           ["storybook", "npm:7.6.17"],\
           ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"],\
-          ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"]\
+          ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"],\
+          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -23987,6 +23998,29 @@ const RAW_RUNTIME_STATE =
           "@vue/compiler-sfc",\
           "vue",\
           "webpack"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-router", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vue-router-npm-4.3.0-b765d40138-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "npm:4.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-4f1c2b609f/4/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.3.0-b765d40138-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.6.1"],\
+          ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
