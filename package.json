@@ -20,7 +20,8 @@
     "axios": "^1.6.7",
     "core-js": "^3.36.0",
     "vue": "^3.4.21",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vuex": "4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",

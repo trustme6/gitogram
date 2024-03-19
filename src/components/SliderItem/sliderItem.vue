@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <div class="x-wrapper">
-    <xProgress />
+    <Progress />
     <div class="c-content">
       <div class="user">
         <div class="icon">
@@ -24,13 +24,13 @@
 
 <script>
 import { xButton } from '../button'
-import { xProgress } from '../progress'
+import { Progress } from '../progress'
 import { icon } from '../../icons'
 export default {
   name: 'SliderItem',
   components: {
     xButton,
-    xProgress,
+    Progress,
     icon
 
   }

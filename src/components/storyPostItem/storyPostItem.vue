@@ -9,7 +9,7 @@
 <div class="stories-container">
 <div class="header">
 <div class="progress">
-<xProgress />
+<Progress />
 </div>
 <div class="user"></div>
 </div>
@@ -33,7 +33,7 @@
 <script>
 /* eslint-disable */
 import { xButton } from '../button'
-import { xProgress } from '../progress'
+import { Progress } from '../progress'
 import { icon } from '../../icons'
 // import { placeholder } from '../placeholder'
 // import { spinner } from '../spinner'
@@ -42,7 +42,7 @@ export default {
     name: "StoryPostItem",
     components: {
         xButton,
-        xProgress,
+        Progress,
         icon
         // placeholder,
         // spinner

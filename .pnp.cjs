@@ -64,7 +64,8 @@ const RAW_RUNTIME_STATE =
           ["storybook", "npm:7.6.17"],\
           ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"],\
           ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"],\
-          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"]\
+          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"],\
+          ["vuex", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.0.2"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -14505,7 +14506,8 @@ const RAW_RUNTIME_STATE =
           ["storybook", "npm:7.6.17"],\
           ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"],\
           ["vue-loader", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:17.4.2"],\
-          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"]\
+          ["vue-router", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.3.0"],\
+          ["vuex", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.0.2"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -24055,6 +24057,29 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vue-template-es2015-compiler-npm-1.9.1-e9a15f8a9f-10c0.zip/node_modules/vue-template-es2015-compiler/",\
         "packageDependencies": [\
           ["vue-template-es2015-compiler", "npm:1.9.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vuex", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vuex-npm-4.0.2-809c9d1907-10c0.zip/node_modules/vuex/",\
+        "packageDependencies": [\
+          ["vuex", "npm:4.0.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/vuex-virtual-4e68766502/4/AppData/Local/Yarn/Berry/cache/vuex-npm-4.0.2-809c9d1907-10c0.zip/node_modules/vuex/",\
+        "packageDependencies": [\
+          ["vuex", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:4.0.2"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.6.1"],\
+          ["vue", "virtual:3eb70b519228f72951f5b955c67fa46818dfbc82e1b6b2e3934bd8073442a7b48a9afbf721312e3c15335bc62b9200d8a51316ee89d9fe548f56f688936ac91a#npm:3.4.21"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\

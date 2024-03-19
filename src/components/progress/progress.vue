@@ -1,41 +1,61 @@
 <template>
-  <div
-    :class="{ active }"
-    class="c-progress"
-  >
-    <div
-      ref="indicator"
-      class="indicator" />
+  <div class="progress" :class="{ active }">
+    <div ref="indicator" class="indicator"></div>
   </div>
 </template>
+
 <script>
-/* eslint-disable */
 export default {
-  title: "progress" ,
-  data () {
+  title: "progress",
+  emits: ["onFinish"],
+  data() {
     return {
-      active: false
-    }
+      active: false,
+    };
   },
-  // eslint-disable-next-line vue/order-in-components
-  emits: ['onFinish'],
   methods: {
-    emitOnFinish () {
-      this.$emit('onFinish')
-    }
+    emitOnFinish() {
+      debugger;
+      this.$emit("onFinish");
+    },
   },
-  // eslint-disable-next-line vue/order-in-components
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
-      this.active = true
-    })
-    this.$refs.indicator.addEventListener('transitionend', this.emitOnFinish)
+      this.active = true;
+    });
+
+    this.$refs.indicator.addEventListener("transitionend", this.emitOnFinish);
   },
-  // eslint-disable-next-line vue/order-in-components
-  beforeUnmount () {
-    this.$refs.indicator.removeEventListener('transitionend', this.emitOnFinish)
-  }
-}
+  beforeUnmount() {
+    this.$refs.indicator.removeEventListener(
+      "transitionend",
+      this.emitOnFinish
+    );
+  },
+};
 </script>
 
-<style lang="scss" scoped src="./progress.scss"></style>
+<style>
+.progress {
+  background: rgba(49, 174, 84, 0.3);
+  height: 2px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.active > .indicator {
+  width: 100%;
+  transition: 15s;
+}
+
+.indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: #31ae54;
+  transition: 15s;
+}
+</style>

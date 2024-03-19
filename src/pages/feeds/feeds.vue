@@ -11,9 +11,9 @@
           <h1>Gitogram /</h1>
           <div class="icons">
             <div class="icon">
-              <icon name="home" />
+              <icon name='home' />
             </div>
-            <div class="icon">
+            <div class='icon'>
               <icon name="currentUser" />
             </div>
             <div class="icon">
@@ -34,12 +34,7 @@
   <div class="main-content">
     <div class="m-container">
       <div class="user">
-        <div class="icon">
-          <icon name="currentUser" />
-        </div>
-        <h2>
-          Sam
-        </h2>
+          <avatar :avatarUrl="'https://source.unsplash.com/300x300/?dog'" :nickname="'Sam'"/>
       </div>
       <div class="post">
         <h1 class="head">
@@ -54,12 +49,14 @@
 </template>
 
 <script>
+/* eslint-disable */
 import { top } from '../../components/top'
 import { icon } from '../../icons'
 import { storyUserItem } from '../../components/storyUserItem'
 import { feed } from '../../components/feed'
 import stories from './data.json'
 import sliderItem from '@/components/SliderItem/sliderItem.vue'
+import avatar from '@/components/avatar/avatar.vue'
 
 export default {
   name: 'Feeds',
@@ -68,7 +65,8 @@ export default {
     icon,
     storyUserItem,
     feed,
-    sliderItem
+    sliderItem,
+    avatar
   },
   data () {
     return {
